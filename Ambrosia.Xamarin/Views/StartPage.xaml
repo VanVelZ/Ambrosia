@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ambrosia.Xamarin.Views.StartPage">
+    <ContentPage.Content>
+        <StackLayout>
+        <Frame Padding="10" Margin="10" VerticalOptions="CenterAndExpand">
+            <ScrollView>
+        <StackLayout>
+            <Frame Margin="10" BackgroundColor="SpringGreen">
+                <StackLayout x:Name="stkMeal">
+                <Button x:Name="btnNewMeal" Text="+Meal" FontSize="Title" TextColor="Black" Clicked="btnNewMeal_Clicked"/>
+                </StackLayout>
+            </Frame>
+            <Frame Margin="10" BackgroundColor="OrangeRed">
+                <StackLayout x:Name="stkWorkout">
+                <Button x:Name="btnNewWorkout" Text="+Workout" FontSize="Title" TextColor="Black" Clicked="btnNewWorkout_Clicked"/>
+                    </StackLayout>
+            </Frame>
+            <Frame Margin="10">
+                <StackLayout x:Name="stkHistory">
+                <Button x:Name="btnViewHistory" Text="History" FontSize="Title" TextColor="Black" Clicked="btnViewHistory_Clicked"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+                </ScrollView>
+         </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

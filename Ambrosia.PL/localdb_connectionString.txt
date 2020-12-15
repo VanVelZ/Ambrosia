@@ -1,0 +1,3 @@
+  <connectionStrings>
+    <add name="AmbrosiaEntities" connectionString="metadata=res://*/AmbrosiaEntities.csdl|res://*/AmbrosiaEntities.ssdl|res://*/AmbrosiaEntities.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(localdb)\ProjectsV13;initial catalog=Ambrosia.DB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+  </connectionStrings> 

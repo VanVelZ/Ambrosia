@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Ambrosia.Xamarin.Login">
+    <StackLayout>
+        <Frame BackgroundColor="CornflowerBlue" Padding="35">
+            <Label Text="Ambrosia" HorizontalTextAlignment="Center" TextColor="White" FontSize="Title" FontAttributes="Bold" VerticalOptions="CenterAndExpand"/>
+        </Frame>
+        <Frame Padding="30" CornerRadius="20" ScaleX=".9" VerticalOptions="CenterAndExpand">
+            <StackLayout x:Name="stkUserInfo">
+        <Entry x:Name="txtUsername" Completed="txtUsername_Completed" Placeholder="Username"/>
+        <Entry x:Name="txtPassword" Completed="btnLogin_Clicked"  IsPassword="True" Placeholder="Password"/>
+                </StackLayout>
+        </Frame>
+        <Button x:Name="btnCreate" Clicked="btnCreate_Clicked" Text="Don't have an account? Create one!"/>
+        <Frame BackgroundColor="SpringGreen" Padding="30" Margin="30">
+        <Button x:Name="btnLogin" Clicked="btnLogin_Clicked" Text="Login" FontSize="Large" />
+            </Frame>
+    </StackLayout>
+</ContentPage>
